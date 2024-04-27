@@ -180,3 +180,4 @@ states.json
 pyrightconfig.json
 pytest.ini
 .idea
+package_upload_steps.txt

@@ -1,0 +1,7 @@
+include LICENSE
+include README.md
+
+recursive-include django_nigerian_states/fixtures *
+recursive-include django_nigerian_states/tests *
+recursive-include django_nigerian_states/templatetags *
+recursive-include django_nigerian_states/management *

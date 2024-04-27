@@ -3,3 +3,5 @@ include README.rst
 
 recursive-include nigerian_states/fixtures *
 recursive-include nigerian_states/templatetags *
+recursive-exclude nigerian_states/migrations *
+recursive-exclude tests *

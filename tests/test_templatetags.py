@@ -3,7 +3,7 @@ from django.test import TestCase
 from nigerian_states.models import GeoPoliticalZone, State
 from nigerian_states.utils import queryset_to_list
 from .defaults import get_state, load_fixtures, get_random_state_in_zone
-from nigerian_states.templatetags.default_tags import (
+from nigerian_states.templatetags.state_tags import (
     default_zone,
     get_capital,
     get_lgas_in_state,
@@ -27,7 +27,7 @@ class TestTemplateTags(TestCase):
         # def test_tags_get_states(self):
         """
         I don't think you need to render a template in order to test your filter logic. Django already has well-tested template rendering logic, which the unit-tests for your filter shouldn't have to worry about since the "job" done by your filter is not to render to a template, but to take an input and return an output.
-        
+
         https://stackoverflow.com/questions/49603388/test-a-custom-template-tag-filter-in-django
         I agree with the above, which is why i won't be testing the tags using Template.
         # Test that `get_states` template tags returns states from the zone name passed as args.

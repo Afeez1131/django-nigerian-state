@@ -3,7 +3,6 @@ Nigerian States
 ===============
 
 Django Nigerian States is a comprehensive third-party Django application that provides a robust and efficient way to manage and interact with geopolitical data related to Nigeria. This application is designed to seamlessly integrate with your Django projects, providing pre-defined Django fields for all states, their capitals, local government areas, and geopolitical zones in Nigeria.
-Installation
 ------------
 
 Requirements
@@ -134,9 +133,8 @@ Developed by Afeez Lawal
 
 Contact Me:
 -----------
-
-- Email: [Mail](mailto:lawalafeez052@gmail)
-- Lawal Afeez: [LinkedIn:](https://www.linkedin.com/in/lawal-afeez/)
-- Github: [Github:](https://github.com/Afeez31/)
+- Email: mailto:lawalafeez052@gmail
+- LinkedIn: https://www.linkedin.com/in/lawal-afeez/
+- Github: https://github.com/Afeez31/
 
 .. _LICENSE: https://github.com/Afeez1131/LICENSE

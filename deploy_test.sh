@@ -20,7 +20,7 @@ python setup.py bdist_wheel
 # Upload distributions to TestPyPI
 echo "Uploading distributions to TestPyPI..."
 # python3 -m twine upload --repository testpypi dist/*
-python3 -m pip install --upgrade twine
+python3 -m twine upload dist/*
 
 # Clean up
 echo "Cleaning up temporary files..."
